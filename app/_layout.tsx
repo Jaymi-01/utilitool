@@ -17,6 +17,8 @@ function RootLayoutContent() {
           headerTitleStyle: {
             fontWeight: "bold",
           },
+          headerBackVisible: true,
+          headerBackTitleVisible: false,
           headerShadowVisible: false,
           contentStyle: {
             backgroundColor: colors.background,
@@ -30,27 +32,27 @@ function RootLayoutContent() {
           }}
         />
         <Stack.Screen
-          name="converter"
+          name="length"
           options={{
-            title: "Unit Converter",
+            title: "Length Converter",
           }}
         />
         <Stack.Screen
-          name="bmi"
+          name="weight"
           options={{
-            title: "BMI Calculator",
+            title: "Weight Converter",
           }}
         />
         <Stack.Screen
-          name="password"
+          name="temperature"
           options={{
-            title: "Password Generator",
+            title: "Temperature Converter",
           }}
         />
         <Stack.Screen
-          name="compass"
+          name="tasks"
           options={{
-            title: "Compass",
+            title: "Task Manager",
           }}
         />
       </Stack>

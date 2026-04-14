@@ -71,36 +71,36 @@ export default function Index() {
         <View style={styles.headerTop}>
           <Text style={StyleSheet.flatten([styles.title, { color: colors.text }])}>UtiliTool</Text>
           <View style={StyleSheet.flatten([styles.badge, { backgroundColor: colors.primaryLight }])}>
-            <Text style={StyleSheet.flatten([styles.badgeText, { color: colors.primaryDark }])}>v1.0</Text>
+            <Text style={StyleSheet.flatten([styles.badgeText, { color: colors.primaryDark }])}>v1.2</Text>
           </View>
         </View>
-        <Text style={StyleSheet.flatten([styles.tagline, { color: colors.textSecondary }])}>Smart tools for your daily workflow.</Text>
+        <Text style={StyleSheet.flatten([styles.tagline, { color: colors.textSecondary }])}>Universal Converter & Productivity Toolkit.</Text>
       </View>
 
       <View style={styles.toolsList}>
         <ToolCard
-          title="Unit Converter"
-          description="Length, Weight, Temperature"
-          icon="swap-horizontal"
-          href="/converter"
+          title="Length Converter"
+          description="Meters, Kilometers, Miles, Feet..."
+          icon="expand"
+          href="/length"
         />
         <ToolCard
-          title="BMI Calculator"
-          description="Check your Body Mass Index"
-          icon="calculator"
-          href="/bmi"
+          title="Weight Converter"
+          description="Kilograms, Grams, Pounds, Ounces..."
+          icon="scale"
+          href="/weight"
         />
         <ToolCard
-          title="Password Generator"
-          description="Create secure passwords"
-          icon="key"
-          href="/password"
+          title="Temperature Converter"
+          description="Celsius, Fahrenheit, Kelvin"
+          icon="thermometer"
+          href="/temperature"
         />
         <ToolCard
-          title="Compass"
-          description="Find your direction"
-          icon="compass"
-          href="/compass"
+          title="Task Manager"
+          description="Create & manage your daily checklist"
+          icon="list"
+          href="/tasks"
         />
       </View>
     </ScrollView>
