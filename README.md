@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# UtiliTool - Smart Utility Toolkit
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+UtiliTool is a clean, modern, and highly functional mobile application built with React Native and Expo. It provides a suite of essential everyday tools wrapped in a beautiful Emerald Green interface, supporting both Light and Dark modes.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+### 🛠️ Universal Unit Converter
+A comprehensive suite for your daily conversion needs:
+- **Length Converter:** Meters, Kilometers, Miles, Feet, Inches, and Centimeters.
+- **Weight Converter:** Kilograms, Grams, Pounds, and Ounces.
+- **Temperature Converter:** Celsius, Fahrenheit, and Kelvin.
 
+### 📝 Task Manager
+A powerful productivity tool to keep your day organized:
+- **Create & Complete:** Easily add tasks and mark them as done with a strike-through effect.
+- **Edit & Delete:** Full CRUD functionality with native confirmation alerts.
+- **Local Persistence:** All tasks are saved locally using `AsyncStorage`, ensuring your data is available offline and persists through app restarts.
+
+### 🌓 Adaptive UI
+- **Emerald Green Theme:** A professionally designed color palette that minimizes blue light.
+- **Light & Dark Mode:** A dedicated toggle to switch between a clean light interface and a high-contrast dark mode for eye comfort.
+- **Haptic Feedback:** Physical vibrations integrated into every action for a responsive, high-quality feel.
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or newer)
+- npm or pnpm
+- Expo Go app on your mobile device (to test)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd utilitool
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. Start the project:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 📱 Supported Platforms
+- **iOS:** Fully optimized with native safe area handling.
+- **Android:** Supports native hardware back navigation.
+- **Web/Tablet:** Responsive layouts using `StyleSheet.flatten` to ensure stability across all screen sizes.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Built With
+- **React Native** & **Expo**
+- **Expo Router** (File-based navigation)
+- **Async Storage** (Local data persistence)
+- **Expo Sensors** (Compass integration support)
+- **Expo Haptics** (Interactive feedback)
+- **Lucide/Ionicons** (Visual iconography)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+*Built with precision and focus on productivity.*
