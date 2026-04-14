@@ -31,7 +31,7 @@ A powerful productivity tool to keep your day organized:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Jaymi-01/utilitool.git
    cd utilitool
    ```
 2. Install dependencies:
